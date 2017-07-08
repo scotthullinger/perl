@@ -6,7 +6,7 @@ use strict;
 print "Please enter a whole number: ";
 $input1 = <STDIN>;
 
-printe "Please enter a second whole number: ";
+print "Please enter a second whole number: ";
 $input2 = <STDIN>;
 
 if ($input1 < $input2)
