@@ -3,7 +3,7 @@
 print "What is your favorite animal?\n";
 $animal = <STDIN>;
 
-if (($animal eq "bunny\n") || ($animal eq "rabbit\n")) {
+if (($animal =~ /bunny/gi) || ($animal =~ /rabbit/gi)) {
 	print "You said $animal";
 	print "Yes, bunnies are the best!\n"
 } else {
