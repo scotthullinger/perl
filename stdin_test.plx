@@ -8,6 +8,6 @@
 print "Please type in your age:";
 $age = <STDIN>;
 
-print "Your age is $age";
+print "Your age is $age wow, you are old ";
 
 <STDIN>;
